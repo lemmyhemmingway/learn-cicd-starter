@@ -1,3 +1,3 @@
-#!/run/current-system/sw/bin/bash
+#!/bin/bash
 
 CGO_ENABLED=0 GOOS=linux GOARCH=amd64 go build -o notely
